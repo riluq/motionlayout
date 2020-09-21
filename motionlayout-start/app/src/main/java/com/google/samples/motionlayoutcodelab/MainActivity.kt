@@ -37,12 +37,12 @@ private val data = listOf(
     Step("Sample with Constraint Layout",
         "As a comparison between constraint layout and motion layout",
         "Can tell the difference when using \"constraintlayout\" and \"motionlayout\"",
-        SampleConstraintActivity::class
+        ExampleConstraintActivity::class
     ),
     Step("Sample with Motion Layout",
         "As a comparison between constraint layout and motion layout",
         "Can tell the difference when using \"constraintlayout\" and \"motionlayout\"",
-        SampleMotionActivity::class
+        ExampleMotionActivity::class
     ),
     Step("Step 1",
         "Animations with Motion Layout",

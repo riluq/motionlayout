@@ -8,18 +8,18 @@
         app:duration="4000">
 
         <OnClick
-            app:targetId="@id/view_motion"
+            app:targetId="@id/img_motion"
             app:clickAction="toggle"/>
 
         <KeyFrameSet>
             <KeyAttribute
-                app:motionTarget="@id/view_motion"
+                app:motionTarget="@id/img_motion"
                 app:framePosition="33"
                 android:rotationY="-120"
                 android:rotationX="-180"
                 android:translationX="-60dp"/>
             <KeyAttribute
-                app:motionTarget="@id/view_motion"
+                app:motionTarget="@id/img_motion"
                 app:framePosition="66"
                 android:rotationY="120"
                 android:rotationX="180"
@@ -30,7 +30,7 @@
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
-            android:id="@+id/view_motion"
+            android:id="@+id/img_motion"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginTop="16dp"
@@ -41,7 +41,7 @@
 
     <ConstraintSet android:id="@+id/end">
         <Constraint
-            android:id="@+id/view_motion"
+            android:id="@+id/img_motion"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginBottom="16dp"

@@ -11,8 +11,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ExampleMotionActivity"></activity>
-        <activity android:name=".ExampleConstraintActivity" />
+        <activity
+            android:name=".ExampleMotionActivity"
+            android:label="@string/title_activity_example_motion"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExampleConstraintActivity"
+            android:label="@string/title_activity_example_constraint"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".Step1Activity"
             android:label="@string/title_activity_step1"
